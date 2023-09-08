@@ -38,3 +38,6 @@ out/
 
 ### Resources ###
 src/main/resources/cities/cities500.json
+
+### OUTPUT ###
+output-files
