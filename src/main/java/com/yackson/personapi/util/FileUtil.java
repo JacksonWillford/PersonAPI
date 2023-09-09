@@ -20,7 +20,7 @@ import java.util.Arrays;
 @UtilityClass
 public class FileUtil {
     private static final String INPUT_PATH = "src\\main\\resources\\cities\\cities500.json";
-    private static final String OUTPUT_PATH = "output-path";
+    private static final String OUTPUT_PATH = "output-files";
     private static final Path PATH = Path.of(OUTPUT_PATH);
 
     public static void saveWorldOutput(World world) {
