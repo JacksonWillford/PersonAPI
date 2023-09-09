@@ -24,6 +24,9 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.google.code.gson:gson:2.10.1")
+	implementation("net.iakovlev:timeshape:2022g.17")
+	implementation("com.github.luben:zstd-jni:1.5.2-3@aar")
+
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 
